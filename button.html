@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script>
+      function runScript() {
+        // Make an HTTP request to the Go script
+        // Replace "http://localhost:8080" with the URL of your Go script
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "lighthouse.go", true);
+        xhr.send();
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="runScript()">Run Script</button>
+  </body>
+</html>

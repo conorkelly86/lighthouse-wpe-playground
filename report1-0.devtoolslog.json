@@ -1,0 +1,5590 @@
+[
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "EC1D15761CD50A657A92D6CB37279382",
+      "name": "commit",
+      "timestamp": 1320915.717903
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "EC1D15761CD50A657A92D6CB37279382",
+      "name": "DOMContentLoaded",
+      "timestamp": 1320915.717949
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "EC1D15761CD50A657A92D6CB37279382",
+      "name": "load",
+      "timestamp": 1320915.718086
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "EC1D15761CD50A657A92D6CB37279382",
+      "name": "networkAlmostIdle",
+      "timestamp": 1320915.7182
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "EC1D15761CD50A657A92D6CB37279382",
+      "name": "networkIdle",
+      "timestamp": 1320915.7182
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "method": "GET",
+        "headers": {
+          "Upgrade-Insecure-Requests": "1",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320915.831683,
+      "wallTime": 1671189536.817902,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Document",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320915.832194
+      }
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "EC1D15761CD50A657A92D6CB37279382",
+      "name": "networkAlmostIdle",
+      "timestamp": 1320915.7182
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "EC1D15761CD50A657A92D6CB37279382",
+      "name": "networkIdle",
+      "timestamp": 1320915.7182
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "blockedCookies": [],
+      "headers": {
+        "Cache-Control": "max-age=0, must-revalidate, private",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "Keep-Alive": "timeout=20",
+        "Link": "<https://blankecomsite.wpenginedev.com/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding",
+        "X-Cache": "MISS",
+        "X-Cacheable": "NO:Passed",
+        "X-Pass-Why": "no-cache",
+        "X-Powered-By": "WP Engine"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: text/html; charset=UTF-8\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nLink: <https://blankecomsite.wpenginedev.com/index.php?rest_route=/>; rel=\"https://api.w.org/\"\r\nVary: Accept-Encoding\r\nX-Powered-By: WP Engine\r\nX-Cacheable: NO:Passed\r\nCache-Control: max-age=0, must-revalidate, private\r\nX-Cache: MISS\r\nX-Pass-Why: no-cache\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.173093,
+      "type": "Document",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Cache-Control": "max-age=0, must-revalidate, private",
+          "Connection": "keep-alive",
+          "Content-Encoding": "gzip",
+          "Content-Type": "text/html; charset=UTF-8",
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Keep-Alive": "timeout=20",
+          "Link": "<https://blankecomsite.wpenginedev.com/index.php?rest_route=/>; rel=\"https://api.w.org/\"",
+          "Server": "nginx",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding\nAccept-Encoding",
+          "X-Cache": "MISS",
+          "X-Cacheable": "NO:Passed",
+          "X-Pass-Why": "no-cache",
+          "X-Powered-By": "WP Engine"
+        },
+        "mimeType": "text/html",
+        "connectionReused": false,
+        "connectionId": 36,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 491,
+        "timing": {
+          "requestTime": 1320915.832194,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0,
+          "dnsEnd": 55.65,
+          "connectStart": 55.65,
+          "connectEnd": 166.94,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 166.992,
+          "sendEnd": 167.117,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 2340.397
+        },
+        "responseTime": 1671189539158.711,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Page.frameStartedLoading",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "name": "init",
+      "timestamp": 1320918.174699
+    }
+  },
+  {
+    "method": "Page.frameNavigated",
+    "params": {
+      "frame": {
+        "id": "AADD279AB61E338A4E7F58ED40854625",
+        "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "domainAndRegistry": "wpenginedev.com",
+        "securityOrigin": "http://blankecomsite.wpenginedev.com",
+        "mimeType": "text/html",
+        "adFrameStatus": {
+          "adFrameType": "none"
+        },
+        "secureContextType": "InsecureScheme",
+        "crossOriginIsolatedContextType": "NotIsolated",
+        "gatedAPIFeatures": []
+      },
+      "type": "Navigation"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.17656,
+      "dataLength": 26681,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.2",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/genesis-page-builder/lib/genesis-blocks/dist/blocks.style.build.css?ver=1663664398",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.17706,
+      "wallTime": 1671189539.163299,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 32,
+        "columnNumber": 218
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.3",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.177249,
+      "wallTime": 1671189539.16346,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 33,
+        "columnNumber": 166
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.4",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=8.9.2",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.177361,
+      "wallTime": 1671189539.163594,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 37,
+        "columnNumber": 217
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.5",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.9.2",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.177481,
+      "wallTime": 1671189539.163692,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 38,
+        "columnNumber": 201
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.6",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-includes/css/classic-themes.min.css?ver=1",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.177573,
+      "wallTime": 1671189539.163784,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 39,
+        "columnNumber": 156
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.7",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/genesis-page-builder/build/frontend.styles.build.css?ver=1663664398",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.177646,
+      "wallTime": 1671189539.163856,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 46,
+        "columnNumber": 214
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.8",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=7.2.0",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.177728,
+      "wallTime": 1671189539.163939,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 47,
+        "columnNumber": 184
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.9",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=7.2.0",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.177876,
+      "wallTime": 1671189539.164095,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 48,
+        "columnNumber": 225
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.10",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=7.2.0",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.17801,
+      "wallTime": 1671189539.164221,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 49,
+        "columnNumber": 178
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.11",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/style.css?ver=1.0.0",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.178098,
+      "wallTime": 1671189539.164309,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 53,
+        "columnNumber": 174
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.12",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/fonts/css/font-style.css",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.178168,
+      "wallTime": 1671189539.164379,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 100,
+        "columnNumber": 183
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.13",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/icons/css/icon-style.css?ver=1.0.0",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.178249,
+      "wallTime": 1671189539.164459,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 101,
+        "columnNumber": 179
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Stylesheet",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.14",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.178338,
+      "wallTime": 1671189539.164548,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 102,
+        "columnNumber": 117
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.15",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.178418,
+      "wallTime": 1671189539.164628,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 103,
+        "columnNumber": 128
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.16",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.2.0",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.178509,
+      "wallTime": 1671189539.164723,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 236,
+        "columnNumber": 172
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.17",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.2.0",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.178599,
+      "wallTime": 1671189539.164809,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 240,
+        "columnNumber": 153
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.18",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.2.0",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.178674,
+      "wallTime": 1671189539.164884,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 241,
+        "columnNumber": 156
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.19",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.2.0",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.178744,
+      "wallTime": 1671189539.164954,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 245,
+        "columnNumber": 150
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.20",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.2.0",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.17881,
+      "wallTime": 1671189539.16503,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 249,
+        "columnNumber": 159
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.21",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/genesis-page-builder/lib/genesis-blocks/dist/assets/js/dismiss.js?ver=1663664398",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.178897,
+      "wallTime": 1671189539.165106,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 250,
+        "columnNumber": 185
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.22",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/js/genesis-block-theme.js?ver=1.0.0",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.178968,
+      "wallTime": 1671189539.165176,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 254,
+        "columnNumber": 156
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.2",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.1773
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.3",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.177627
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.23",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/wp-emoji-release.min.js?ver=6.1.1",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.236368,
+      "wallTime": 1671189539.222592,
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "c",
+              "scriptId": "13",
+              "url": "http://blankecomsite.wpenginedev.com/",
+              "lineNumber": 16,
+              "columnNumber": 428
+            },
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "http://blankecomsite.wpenginedev.com/",
+              "lineNumber": 16,
+              "columnNumber": 1706
+            },
+            {
+              "functionName": "",
+              "scriptId": "13",
+              "url": "http://blankecomsite.wpenginedev.com/",
+              "lineNumber": 16,
+              "columnNumber": 1774
+            }
+          ]
+        }
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Script",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.173963,
+      "encodedDataLength": 7057,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.4",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.17777
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.5",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.178016
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.2",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "text/css",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"6329810e-b21f\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Tue, 20 Sep 2022 08:59:58 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: text/css\r\nLast-Modified: Tue, 20 Sep 2022 08:59:58 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"6329810e-b21f\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.2",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.289362,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/genesis-page-builder/lib/genesis-blocks/dist/blocks.style.build.css?ver=1663664398",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Tue, 20 Sep 2022 08:59:58 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"6329810e-b21f\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "text/css",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 36,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 385,
+        "timing": {
+          "requestTime": 1320918.1773,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.151,
+          "sendEnd": 0.252,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 111.782
+        },
+        "responseTime": 1671189539275.243,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.2",
+      "timestamp": 1320918.289408,
+      "dataLength": 4288,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.2",
+      "timestamp": 1320918.290178,
+      "dataLength": 9208,
+      "encodedDataLength": 2439
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.6",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.178224
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.2",
+      "timestamp": 1320918.291554,
+      "dataLength": 31522,
+      "encodedDataLength": 4236
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.7",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.17831
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.2",
+      "timestamp": 1320918.292154,
+      "dataLength": 581,
+      "encodedDataLength": 150
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.8",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.17853
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.2",
+      "timestamp": 1320918.292143,
+      "encodedDataLength": 7210,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.3",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "text/css",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"636e62ad-172a9\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Fri, 11 Nov 2022 14:56:45 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: text/css\r\nLast-Modified: Fri, 11 Nov 2022 14:56:45 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"636e62ad-172a9\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.3",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.293145,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Fri, 11 Nov 2022 14:56:45 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"636e62ad-172a9\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "text/css",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 40,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 386,
+        "timing": {
+          "requestTime": 1320918.177627,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.064,
+          "sendEnd": 0.097,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 115.349
+        },
+        "responseTime": 1671189539279.149,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.3",
+      "timestamp": 1320918.293172,
+      "dataLength": 28035,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.3",
+      "timestamp": 1320918.293357,
+      "dataLength": 670,
+      "encodedDataLength": 3850
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.3",
+      "timestamp": 1320918.294858,
+      "dataLength": 34301,
+      "encodedDataLength": 4236
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.9",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.17866
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.3",
+      "timestamp": 1320918.296302,
+      "dataLength": 31883,
+      "encodedDataLength": 4822
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.3",
+      "timestamp": 1320918.296241,
+      "encodedDataLength": 13294,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.4",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "text/css",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"639ba2b3-28c3\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: text/css\r\nLast-Modified: Thu, 15 Dec 2022 22:41:55 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"639ba2b3-28c3\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.10",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.178758
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.4",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.400148,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-vendors-style.css?ver=8.9.2",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"639ba2b3-28c3\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "text/css",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "text/css",
+        "connectionReused": false,
+        "connectionId": 57,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 385,
+        "timing": {
+          "requestTime": 1320918.17777,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.047,
+          "dnsEnd": 0.053,
+          "connectStart": 0.053,
+          "connectEnd": 110.107,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 110.147,
+          "sendEnd": 110.231,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 222.03
+        },
+        "responseTime": 1671189539385.944,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.4",
+      "timestamp": 1320918.400205,
+      "dataLength": 10435,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.4",
+      "timestamp": 1320918.400483,
+      "dataLength": 0,
+      "encodedDataLength": 1987
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.4",
+      "timestamp": 1320918.400045,
+      "encodedDataLength": 2372,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.5",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "text/css",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"639ba2b3-39cc6\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: text/css\r\nLast-Modified: Thu, 15 Dec 2022 22:41:55 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"639ba2b3-39cc6\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.5",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.403391,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/packages/woocommerce-blocks/build/wc-blocks-style.css?ver=8.9.2",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"639ba2b3-39cc6\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "text/css",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "text/css",
+        "connectionReused": false,
+        "connectionId": 71,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 386,
+        "timing": {
+          "requestTime": 1320918.178016,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.336,
+          "dnsEnd": 0.339,
+          "connectStart": 0.339,
+          "connectEnd": 110.271,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 110.285,
+          "sendEnd": 110.318,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 225.185
+        },
+        "responseTime": 1671189539389.376,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.5",
+      "timestamp": 1320918.403418,
+      "dataLength": 2845,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.5",
+      "timestamp": 1320918.404186,
+      "dataLength": 34571,
+      "encodedDataLength": 5262
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.8",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "text/css",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"639ba2b3-4591\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: text/css\r\nLast-Modified: Thu, 15 Dec 2022 22:41:55 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"639ba2b3-4591\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.5",
+      "timestamp": 1320918.40528,
+      "dataLength": 57798,
+      "encodedDataLength": 5648
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.8",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.40548,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=7.2.0",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"639ba2b3-4591\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "text/css",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 36,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 385,
+        "timing": {
+          "requestTime": 1320918.17853,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 113.707,
+          "sendEnd": 113.745,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 226.757
+        },
+        "responseTime": 1671189539391.467,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.8",
+      "timestamp": 1320918.405521,
+      "dataLength": 17016,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.5",
+      "timestamp": 1320918.406535,
+      "dataLength": 23826,
+      "encodedDataLength": 2824
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.7",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "text/css",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"6329810e-3712\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Tue, 20 Sep 2022 08:59:58 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: text/css\r\nLast-Modified: Tue, 20 Sep 2022 08:59:58 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"6329810e-3712\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.6",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Length": "217",
+        "Content-Type": "text/css",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "\"6357e86c-d9\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Tue, 25 Oct 2022 13:45:16 GMT",
+        "Server": "nginx",
+        "Vary": "Accept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: text/css\r\nContent-Length: 217\r\nLast-Modified: Tue, 25 Oct 2022 13:45:16 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nETag: \"6357e86c-d9\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nAccept-Ranges: bytes\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.7",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.408522,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/genesis-page-builder/build/frontend.styles.build.css?ver=1663664398",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Tue, 20 Sep 2022 08:59:58 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"6329810e-3712\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "text/css",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "text/css",
+        "connectionReused": false,
+        "connectionId": 75,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 385,
+        "timing": {
+          "requestTime": 1320918.17831,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.12,
+          "dnsEnd": 0.123,
+          "connectStart": 0.123,
+          "connectEnd": 113.216,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 113.297,
+          "sendEnd": 113.324,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 230.047
+        },
+        "responseTime": 1671189539394.513,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.6",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.40863,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-includes/css/classic-themes.min.css?ver=1",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Last-Modified": "Tue, 25 Oct 2022 13:45:16 GMT",
+          "Server": "nginx",
+          "ETag": "\"6357e86c-d9\"",
+          "Vary": "Accept-Encoding",
+          "Content-Type": "text/css",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Keep-Alive": "timeout=20",
+          "Content-Length": "217"
+        },
+        "mimeType": "text/css",
+        "connectionReused": false,
+        "connectionId": 63,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 349,
+        "timing": {
+          "requestTime": 1320918.178224,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0,
+          "dnsEnd": 0,
+          "connectStart": 0,
+          "connectEnd": 113.296,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 113.32,
+          "sendEnd": 113.37,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 230.292
+        },
+        "responseTime": 1671189539394.705,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.6",
+      "timestamp": 1320918.408649,
+      "dataLength": 217,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.7",
+      "timestamp": 1320918.408695,
+      "dataLength": 14098,
+      "encodedDataLength": 2613
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.11",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.178847
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.12",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.17893
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.7",
+      "timestamp": 1320918.408615,
+      "encodedDataLength": 2998,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.6",
+      "timestamp": 1320918.409148,
+      "dataLength": 0,
+      "encodedDataLength": 217
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.6",
+      "timestamp": 1320918.40869,
+      "encodedDataLength": 566,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.8",
+      "timestamp": 1320918.409759,
+      "dataLength": 793,
+      "encodedDataLength": 2585
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.13",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "text/css,*/*;q=0.1",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.179019
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.8",
+      "timestamp": 1320918.409742,
+      "encodedDataLength": 2970,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.9",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "text/css",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"639ba2b3-1b83\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: text/css\r\nLast-Modified: Thu, 15 Dec 2022 22:41:55 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"639ba2b3-1b83\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.9",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.410575,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=7.2.0",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"639ba2b3-1b83\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "text/css",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 40,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 385,
+        "timing": {
+          "requestTime": 1320918.17866,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 117.659,
+          "sendEnd": 117.753,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 231.754
+        },
+        "responseTime": 1671189539396.592,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.9",
+      "timestamp": 1320918.410605,
+      "dataLength": 6409,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.9",
+      "timestamp": 1320918.411246,
+      "dataLength": 634,
+      "encodedDataLength": 1188
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.14",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.179101
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.9",
+      "timestamp": 1320918.411234,
+      "encodedDataLength": 1573,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.5",
+      "timestamp": 1320918.512587,
+      "dataLength": 13266,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.10",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "text/css",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"639ba2b3-f53f\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: text/css\r\nLast-Modified: Thu, 15 Dec 2022 22:41:55 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"639ba2b3-f53f\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.5",
+      "timestamp": 1320918.513434,
+      "dataLength": 11670,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.10",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.513759,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=7.2.0",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"639ba2b3-f53f\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "text/css",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 57,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 385,
+        "timing": {
+          "requestTime": 1320918.178758,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 221.413,
+          "sendEnd": 221.492,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 334.685
+        },
+        "responseTime": 1671189539499.59,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.10",
+      "timestamp": 1320918.513805,
+      "dataLength": 19263,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.10",
+      "timestamp": 1320918.513994,
+      "dataLength": 10192,
+      "encodedDataLength": 5263
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.10",
+      "timestamp": 1320918.514328,
+      "dataLength": 33328,
+      "encodedDataLength": 3837
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.15",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.179193
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.10",
+      "timestamp": 1320918.514334,
+      "encodedDataLength": 9485,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.5",
+      "timestamp": 1320918.516177,
+      "dataLength": 18064,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.5",
+      "timestamp": 1320918.516792,
+      "dataLength": 16014,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.11",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "text/css",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"63298111-f766\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Tue, 20 Sep 2022 09:00:01 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: text/css\r\nLast-Modified: Tue, 20 Sep 2022 09:00:01 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"63298111-f766\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.11",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.522477,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/style.css?ver=1.0.0",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Tue, 20 Sep 2022 09:00:01 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"63298111-f766\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "text/css",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 75,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 385,
+        "timing": {
+          "requestTime": 1320918.178847,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 229.929,
+          "sendEnd": 229.97,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 343.347
+        },
+        "responseTime": 1671189539508.344,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.11",
+      "timestamp": 1320918.522525,
+      "dataLength": 6500,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.11",
+      "timestamp": 1320918.527952,
+      "dataLength": 32561,
+      "encodedDataLength": 8087
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.13",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "text/css",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"63298111-528\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Tue, 20 Sep 2022 09:00:01 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: text/css\r\nLast-Modified: Tue, 20 Sep 2022 09:00:01 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"63298111-528\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.11",
+      "timestamp": 1320918.528771,
+      "dataLength": 16932,
+      "encodedDataLength": 2824
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.12",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "text/css",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"63298111-509\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Tue, 20 Sep 2022 09:00:01 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: text/css\r\nLast-Modified: Tue, 20 Sep 2022 09:00:01 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"63298111-509\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.13",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.529014,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/icons/css/icon-style.css?ver=1.0.0",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Tue, 20 Sep 2022 09:00:01 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"63298111-528\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "text/css",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 36,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 384,
+        "timing": {
+          "requestTime": 1320918.179019,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 230.803,
+          "sendEnd": 230.843,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 349.763
+        },
+        "responseTime": 1671189539514.938,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.14",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/javascript",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"632879b8-15e54\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Mon, 19 Sep 2022 14:16:24 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: application/javascript\r\nLast-Modified: Mon, 19 Sep 2022 14:16:24 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"632879b8-15e54\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.12",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.529145,
+      "type": "Stylesheet",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/fonts/css/font-style.css",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Tue, 20 Sep 2022 09:00:01 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"63298111-509\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "text/css",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "text/css",
+        "connectionReused": true,
+        "connectionId": 63,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 384,
+        "timing": {
+          "requestTime": 1320918.17893,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 229.899,
+          "sendEnd": 229.927,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 350.02
+        },
+        "responseTime": 1671189539515.125,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.5",
+      "timestamp": 1320918.529221,
+      "dataLength": 28848,
+      "encodedDataLength": 2824
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.14",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.529375,
+      "type": "Script",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Mon, 19 Sep 2022 14:16:24 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"632879b8-15e54\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "application/javascript",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 40,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 400,
+        "timing": {
+          "requestTime": 1320918.179101,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 232.232,
+          "sendEnd": 232.291,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 350.112
+        },
+        "responseTime": 1671189539515.391,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.13",
+      "timestamp": 1320918.529466,
+      "dataLength": 1320,
+      "encodedDataLength": 488
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.16",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.179394
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.13",
+      "timestamp": 1320918.52938,
+      "encodedDataLength": 872,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.17",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.17958
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.12",
+      "timestamp": 1320918.529672,
+      "dataLength": 1289,
+      "encodedDataLength": 347
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.52972,
+      "dataLength": 5220,
+      "encodedDataLength": 2424
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.12",
+      "timestamp": 1320918.529485,
+      "encodedDataLength": 731,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.11",
+      "timestamp": 1320918.533257,
+      "dataLength": 7341,
+      "encodedDataLength": 1210
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.18",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.179721
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.11",
+      "timestamp": 1320918.533246,
+      "encodedDataLength": 12506,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.534522,
+      "dataLength": 8523,
+      "encodedDataLength": 2824
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.5",
+      "timestamp": 1320918.534565,
+      "dataLength": 26429,
+      "encodedDataLength": 2824
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.538511,
+      "dataLength": 4026,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.538818,
+      "dataLength": 4045,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.5",
+      "timestamp": 1320918.5391,
+      "dataLength": 3411,
+      "encodedDataLength": 398
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.19",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.179819
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.5",
+      "timestamp": 1320918.539093,
+      "encodedDataLength": 25814,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.549849,
+      "dataLength": 4016,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.550445,
+      "dataLength": 4367,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.553724,
+      "dataLength": 3988,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.554237,
+      "dataLength": 4018,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.562028,
+      "dataLength": 4011,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.562446,
+      "dataLength": 4669,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.572015,
+      "dataLength": 4433,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.572807,
+      "dataLength": 3833,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.576913,
+      "dataLength": 4181,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.577552,
+      "dataLength": 3957,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.585274,
+      "dataLength": 4496,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.585842,
+      "dataLength": 4635,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.592723,
+      "dataLength": 3390,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.593131,
+      "dataLength": 3803,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.600272,
+      "dataLength": 4219,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.60067,
+      "dataLength": 4265,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.15",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/javascript",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"5fb4e3fe-2bd8\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Wed, 18 Nov 2020 09:06:06 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: application/javascript\r\nLast-Modified: Wed, 18 Nov 2020 09:06:06 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"5fb4e3fe-2bd8\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.15",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.624657,
+      "type": "Script",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Wed, 18 Nov 2020 09:06:06 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"5fb4e3fe-2bd8\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "application/javascript",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 57,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 399,
+        "timing": {
+          "requestTime": 1320918.179193,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 335.256,
+          "sendEnd": 335.302,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 445.03
+        },
+        "responseTime": 1671189539610.324,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.15",
+      "timestamp": 1320918.624744,
+      "dataLength": 2074,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.15",
+      "timestamp": 1320918.625074,
+      "dataLength": 4012,
+      "encodedDataLength": 2425
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.15",
+      "timestamp": 1320918.63168,
+      "dataLength": 4111,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.15",
+      "timestamp": 1320918.631876,
+      "dataLength": 1027,
+      "encodedDataLength": 352
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.20",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.179962
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.15",
+      "timestamp": 1320918.631886,
+      "encodedDataLength": 4588,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.64474,
+      "dataLength": 1589,
+      "encodedDataLength": 577
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.21",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.180101
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.14",
+      "timestamp": 1320918.644619,
+      "encodedDataLength": 31641,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.18",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/javascript",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"639ba2b3-72a\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: application/javascript\r\nLast-Modified: Thu, 15 Dec 2022 22:41:55 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"639ba2b3-72a\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.22",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.180207
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.17",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/javascript",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"639ba2b3-bd5\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: application/javascript\r\nLast-Modified: Thu, 15 Dec 2022 22:41:55 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"639ba2b3-bd5\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.16",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/javascript",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"639ba2b3-2521\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: application/javascript\r\nLast-Modified: Thu, 15 Dec 2022 22:41:55 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"639ba2b3-2521\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.19",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/javascript",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"639ba2b3-85b\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: application/javascript\r\nLast-Modified: Thu, 15 Dec 2022 22:41:55 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"639ba2b3-85b\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.18",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.656448,
+      "type": "Script",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.7.2.0",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"639ba2b3-72a\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "application/javascript",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 75,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 398,
+        "timing": {
+          "requestTime": 1320918.179721,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 353.626,
+          "sendEnd": 353.68,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 466.818
+        },
+        "responseTime": 1671189539632.678,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.18",
+      "timestamp": 1320918.656507,
+      "dataLength": 1834,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.17",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.656707,
+      "type": "Script",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=7.2.0",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"639ba2b3-bd5\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "application/javascript",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 63,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 398,
+        "timing": {
+          "requestTime": 1320918.17958,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 350.105,
+          "sendEnd": 350.196,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 467.606
+        },
+        "responseTime": 1671189539633.34,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.17",
+      "timestamp": 1320918.65674,
+      "dataLength": 3029,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.16",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.656954,
+      "type": "Script",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.7.2.0",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"639ba2b3-2521\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "application/javascript",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 36,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 399,
+        "timing": {
+          "requestTime": 1320918.179394,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 350.216,
+          "sendEnd": 350.259,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 468.829
+        },
+        "responseTime": 1671189539634.381,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.16",
+      "timestamp": 1320918.657006,
+      "dataLength": 9505,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.19",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.657227,
+      "type": "Script",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=7.2.0",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"639ba2b3-85b\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "application/javascript",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 71,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 398,
+        "timing": {
+          "requestTime": 1320918.179819,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 359.384,
+          "sendEnd": 359.45,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 469.626
+        },
+        "responseTime": 1671189539635.614,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.19",
+      "timestamp": 1320918.657258,
+      "dataLength": 2139,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.23",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.658987
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.47",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/icons/webfonts/gbicons.woff2?61820902",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/icons/css/icon-style.css?ver=1.0.0",
+          "Origin": "http://blankecomsite.wpenginedev.com",
+          "X-WPE-No-Cache": "no-cache",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.663768,
+      "wallTime": 1671189539.649992,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/icons/css/icon-style.css?ver=1.0.0"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Font",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.46",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/fonts/webfonts/ps_l_n.woff2",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/fonts/css/font-style.css",
+          "Origin": "http://blankecomsite.wpenginedev.com",
+          "X-WPE-No-Cache": "no-cache",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "VeryHigh",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.663919,
+      "wallTime": 1671189539.650132,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/fonts/css/font-style.css"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Font",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.38",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://0.gravatar.com/avatar/caa8f50c266f2a95ccd34e6f8b6274e0?s=88&d=mm&r=g",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "Low",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": false
+      },
+      "timestamp": 1320918.672606,
+      "wallTime": 1671189539.658824,
+      "initiator": {
+        "type": "parser",
+        "url": "http://blankecomsite.wpenginedev.com/",
+        "lineNumber": 218,
+        "columnNumber": 11
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Image",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "name": "firstPaint",
+      "timestamp": 1320918.672855
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "name": "firstContentfulPaint",
+      "timestamp": 1320918.672924
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "name": "firstMeaningfulPaintCandidate",
+      "timestamp": 1320918.67297
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.18",
+      "timestamp": 1320918.673075,
+      "dataLength": 0,
+      "encodedDataLength": 994
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.18",
+      "timestamp": 1320918.646846,
+      "encodedDataLength": 1392,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.17",
+      "timestamp": 1320918.673126,
+      "dataLength": 0,
+      "encodedDataLength": 1102
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.17",
+      "timestamp": 1320918.647978,
+      "encodedDataLength": 1500,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.16",
+      "timestamp": 1320918.673166,
+      "dataLength": 0,
+      "encodedDataLength": 3518
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.16",
+      "timestamp": 1320918.651001,
+      "encodedDataLength": 3917,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.19",
+      "timestamp": 1320918.673247,
+      "dataLength": 0,
+      "encodedDataLength": 806
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.19",
+      "timestamp": 1320918.649649,
+      "encodedDataLength": 1204,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.47",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Origin": "http://blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/icons/css/icon-style.css?ver=1.0.0",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.675359
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.46",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Origin": "http://blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/fonts/css/font-style.css",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.675621
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.resourceChangedPriority",
+    "params": {
+      "requestId": "38003.38",
+      "newPriority": "High",
+      "timestamp": 1320918.675664
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.38",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "0.gravatar.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.672848
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.20",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/javascript",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"639ba2b3-b7a\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: application/javascript\r\nLast-Modified: Thu, 15 Dec 2022 22:41:55 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"639ba2b3-b7a\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.20",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.742081,
+      "type": "Script",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.2.0",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Thu, 15 Dec 2022 22:41:55 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"639ba2b3-b7a\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "application/javascript",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 57,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 398,
+        "timing": {
+          "requestTime": 1320918.179962,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 452.202,
+          "sendEnd": 452.303,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 561.807
+        },
+        "responseTime": 1671189539727.902,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.20",
+      "timestamp": 1320918.742144,
+      "dataLength": 2855,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.20",
+      "timestamp": 1320918.742313,
+      "dataLength": 83,
+      "encodedDataLength": 1054
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.20",
+      "timestamp": 1320918.742249,
+      "encodedDataLength": 1452,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.21",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/javascript",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"6329810e-39b\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Tue, 20 Sep 2022 08:59:58 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: application/javascript\r\nLast-Modified: Tue, 20 Sep 2022 08:59:58 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"6329810e-39b\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.21",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.756819,
+      "type": "Script",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/genesis-page-builder/lib/genesis-blocks/dist/assets/js/dismiss.js?ver=1663664398",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Tue, 20 Sep 2022 08:59:58 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"6329810e-39b\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "application/javascript",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 40,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 398,
+        "timing": {
+          "requestTime": 1320918.180101,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 464.722,
+          "sendEnd": 464.773,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 576.423
+        },
+        "responseTime": 1671189539742.663,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.21",
+      "timestamp": 1320918.75688,
+      "dataLength": 923,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.21",
+      "timestamp": 1320918.757115,
+      "dataLength": 0,
+      "encodedDataLength": 484
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.21",
+      "timestamp": 1320918.756744,
+      "encodedDataLength": 882,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.22",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/javascript",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"63298111-a74\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Tue, 20 Sep 2022 09:00:01 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: application/javascript\r\nLast-Modified: Tue, 20 Sep 2022 09:00:01 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"63298111-a74\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.22",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.758319,
+      "type": "Script",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/js/genesis-block-theme.js?ver=1.0.0",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Tue, 20 Sep 2022 09:00:01 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"63298111-a74\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "application/javascript",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 75,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 398,
+        "timing": {
+          "requestTime": 1320918.180207,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 466.765,
+          "sendEnd": 466.823,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 577.93
+        },
+        "responseTime": 1671189539744.31,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.22",
+      "timestamp": 1320918.758349,
+      "dataLength": 2638,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.22",
+      "timestamp": 1320918.758614,
+      "dataLength": 38,
+      "encodedDataLength": 1046
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.22",
+      "timestamp": 1320918.758547,
+      "encodedDataLength": 1444,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.domContentEventFired",
+    "params": {
+      "timestamp": 1320918.75981
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "name": "DOMContentLoaded",
+      "timestamp": 1320918.75981
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.57",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "*/*",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Content-Length": "18",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Origin": "http://blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-Requested-With": "XMLHttpRequest",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.766727
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.57",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/?wc-ajax=get_refreshed_fragments",
+        "method": "POST",
+        "headers": {
+          "Accept": "*/*",
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "X-Requested-With": "XMLHttpRequest",
+          "X-WPE-No-Cache": "no-cache",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8"
+        },
+        "postData": "time=1671189539751",
+        "hasPostData": true,
+        "postDataEntries": [
+          {
+            "bytes": "dGltZT0xNjcxMTg5NTM5NzUx"
+          }
+        ],
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.76649,
+      "wallTime": 1671189539.752726,
+      "initiator": {
+        "type": "script",
+        "stack": {
+          "callFrames": [
+            {
+              "functionName": "send",
+              "scriptId": "14",
+              "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+              "lineNumber": 1,
+              "columnNumber": 82857
+            },
+            {
+              "functionName": "ajax",
+              "scriptId": "14",
+              "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+              "lineNumber": 1,
+              "columnNumber": 78434
+            },
+            {
+              "functionName": "s.ajax.s.ajax",
+              "scriptId": "15",
+              "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2",
+              "lineNumber": 1,
+              "columnNumber": 3930
+            },
+            {
+              "functionName": "n",
+              "scriptId": "25",
+              "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.2.0",
+              "lineNumber": 0,
+              "columnNumber": 1076
+            },
+            {
+              "functionName": "",
+              "scriptId": "25",
+              "url": "http://blankecomsite.wpenginedev.com/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=7.2.0",
+              "lineNumber": 0,
+              "columnNumber": 2393
+            },
+            {
+              "functionName": "e",
+              "scriptId": "14",
+              "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+              "lineNumber": 1,
+              "columnNumber": 30037
+            },
+            {
+              "functionName": "t",
+              "scriptId": "14",
+              "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+              "lineNumber": 1,
+              "columnNumber": 30339
+            }
+          ],
+          "parent": {
+            "description": "setTimeout",
+            "callFrames": [
+              {
+                "functionName": "",
+                "scriptId": "14",
+                "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+                "lineNumber": 1,
+                "columnNumber": 30548
+              },
+              {
+                "functionName": "c",
+                "scriptId": "14",
+                "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+                "lineNumber": 1,
+                "columnNumber": 28326
+              },
+              {
+                "functionName": "fireWith",
+                "scriptId": "14",
+                "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+                "lineNumber": 1,
+                "columnNumber": 29071
+              },
+              {
+                "functionName": "fire",
+                "scriptId": "14",
+                "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+                "lineNumber": 1,
+                "columnNumber": 29107
+              },
+              {
+                "functionName": "c",
+                "scriptId": "14",
+                "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+                "lineNumber": 1,
+                "columnNumber": 28326
+              },
+              {
+                "functionName": "fireWith",
+                "scriptId": "14",
+                "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+                "lineNumber": 1,
+                "columnNumber": 29071
+              },
+              {
+                "functionName": "ready",
+                "scriptId": "14",
+                "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+                "lineNumber": 1,
+                "columnNumber": 32044
+              },
+              {
+                "functionName": "$",
+                "scriptId": "14",
+                "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.1",
+                "lineNumber": 1,
+                "columnNumber": 31823
+              }
+            ]
+          }
+        }
+      },
+      "redirectHasExtraInfo": false,
+      "type": "XHR",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.23",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Encoding": "gzip",
+        "Content-Type": "application/javascript",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "W/\"62551487-48b9\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Tue, 12 Apr 2022 05:56:23 GMT",
+        "Server": "nginx",
+        "Transfer-Encoding": "chunked",
+        "Vary": "Accept-Encoding\nAccept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: application/javascript\r\nLast-Modified: Tue, 12 Apr 2022 05:56:23 GMT\r\nTransfer-Encoding: chunked\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nVary: Accept-Encoding\r\nETag: W/\"62551487-48b9\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nContent-Encoding: gzip\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.23",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.772467,
+      "type": "Script",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-includes/js/wp-emoji-release.min.js?ver=6.1.1",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Content-Encoding": "gzip",
+          "Last-Modified": "Tue, 12 Apr 2022 05:56:23 GMT",
+          "Server": "nginx",
+          "ETag": "W/\"62551487-48b9\"",
+          "Transfer-Encoding": "chunked",
+          "Vary": "Accept-Encoding, Accept-Encoding",
+          "Content-Type": "application/javascript",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Keep-Alive": "timeout=20"
+        },
+        "mimeType": "application/javascript",
+        "connectionReused": true,
+        "connectionId": 36,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 399,
+        "timing": {
+          "requestTime": 1320918.658987,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.205,
+          "sendEnd": 0.31,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 113.275
+        },
+        "responseTime": 1671189539758.412,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.23",
+      "timestamp": 1320918.772513,
+      "dataLength": 1603,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.23",
+      "timestamp": 1320918.772663,
+      "dataLength": 9636,
+      "encodedDataLength": 2425
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.23",
+      "timestamp": 1320918.776615,
+      "dataLength": 4408,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.23",
+      "timestamp": 1320918.777272,
+      "dataLength": 2970,
+      "encodedDataLength": 1259
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.23",
+      "timestamp": 1320918.777243,
+      "encodedDataLength": 5495,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.47",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Length": "3376",
+        "Content-Type": "font/woff2",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "\"63298111-d30\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Tue, 20 Sep 2022 09:00:01 GMT",
+        "Server": "nginx",
+        "Vary": "Accept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: font/woff2\r\nContent-Length: 3376\r\nLast-Modified: Tue, 20 Sep 2022 09:00:01 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nETag: \"63298111-d30\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nAccept-Ranges: bytes\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.47",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.790764,
+      "type": "Font",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/icons/webfonts/gbicons.woff2?61820902",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Last-Modified": "Tue, 20 Sep 2022 09:00:01 GMT",
+          "Server": "nginx",
+          "ETag": "\"63298111-d30\"",
+          "Vary": "Accept-Encoding",
+          "Content-Type": "font/woff2",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Keep-Alive": "timeout=20",
+          "Content-Length": "3376"
+        },
+        "mimeType": "font/woff2",
+        "connectionReused": true,
+        "connectionId": 71,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 353,
+        "timing": {
+          "requestTime": 1320918.675359,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.112,
+          "sendEnd": 0.193,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 115.174
+        },
+        "responseTime": 1671189539776.698,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.47",
+      "timestamp": 1320918.7908,
+      "dataLength": 1059,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.47",
+      "timestamp": 1320918.791142,
+      "dataLength": 1412,
+      "encodedDataLength": 2471
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.46",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Length": "25076",
+        "Content-Type": "font/woff2",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "ETag": "\"63298111-61f4\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Tue, 20 Sep 2022 09:00:01 GMT",
+        "Server": "nginx",
+        "Vary": "Accept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: font/woff2\r\nContent-Length: 25076\r\nLast-Modified: Tue, 20 Sep 2022 09:00:01 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nETag: \"63298111-61f4\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nAccept-Ranges: bytes\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.46",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.791321,
+      "type": "Font",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/wp-content/themes/genesis-block-theme/inc/fonts/webfonts/ps_l_n.woff2",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Last-Modified": "Tue, 20 Sep 2022 09:00:01 GMT",
+          "Server": "nginx",
+          "ETag": "\"63298111-61f4\"",
+          "Vary": "Accept-Encoding",
+          "Content-Type": "font/woff2",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Keep-Alive": "timeout=20",
+          "Content-Length": "25076"
+        },
+        "mimeType": "font/woff2",
+        "connectionReused": true,
+        "connectionId": 63,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 355,
+        "timing": {
+          "requestTime": 1320918.675621,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.059,
+          "sendEnd": 0.091,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 115.549
+        },
+        "responseTime": 1671189539777.346,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.791349,
+      "dataLength": 1057,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.791397,
+      "dataLength": 1412,
+      "encodedDataLength": 2469
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.791432,
+      "dataLength": 5648,
+      "encodedDataLength": 5648
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.47",
+      "timestamp": 1320918.792418,
+      "dataLength": 905,
+      "encodedDataLength": 905
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.47",
+      "timestamp": 1320918.792356,
+      "encodedDataLength": 3729,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.797063,
+      "dataLength": 1412,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.797492,
+      "dataLength": 1412,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.804754,
+      "dataLength": 1412,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.80509,
+      "dataLength": 1412,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.812726,
+      "dataLength": 1412,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.81328,
+      "dataLength": 1412,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.820773,
+      "dataLength": 1412,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.821096,
+      "dataLength": 1412,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.38",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "max-age=300",
+        "Connection": "keep-alive",
+        "Content-Disposition": "inline; filename=\"caa8f50c266f2a95ccd34e6f8b6274e0.png\"",
+        "Content-Length": "1452",
+        "Content-Type": "image/jpeg",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "Expires": "Fri, 16 Dec 2022 11:23:59 GMT",
+        "Last-Modified": "Wed, 11 Jan 1984 08:00:00 GMT",
+        "Link": "<https://www.gravatar.com/avatar/caa8f50c266f2a95ccd34e6f8b6274e0?s=88&d=mm&r=g>; rel=\"canonical\"",
+        "Server": "nginx",
+        "X-nc": "MISS ams 1"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: image/jpeg\r\nContent-Length: 1452\r\nConnection: keep-alive\r\nLast-Modified: Wed, 11 Jan 1984 08:00:00 GMT\r\nLink: <https://www.gravatar.com/avatar/caa8f50c266f2a95ccd34e6f8b6274e0?s=88&d=mm&r=g>; rel=\"canonical\"\r\nAccess-Control-Allow-Origin: *\r\nContent-Disposition: inline; filename=\"caa8f50c266f2a95ccd34e6f8b6274e0.png\"\r\nExpires: Fri, 16 Dec 2022 11:23:59 GMT\r\nCache-Control: max-age=300\r\nX-nc: MISS ams 1\r\nAccept-Ranges: bytes\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.38",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.879397,
+      "type": "Image",
+      "response": {
+        "url": "http://0.gravatar.com/avatar/caa8f50c266f2a95ccd34e6f8b6274e0?s=88&d=mm&r=g",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "X-nc": "MISS ams 1",
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "Last-Modified": "Wed, 11 Jan 1984 08:00:00 GMT",
+          "Server": "nginx",
+          "Content-Type": "image/jpeg",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "max-age=300",
+          "Content-Disposition": "inline; filename=\"caa8f50c266f2a95ccd34e6f8b6274e0.png\"",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Link": "<https://www.gravatar.com/avatar/caa8f50c266f2a95ccd34e6f8b6274e0?s=88&d=mm&r=g>; rel=\"canonical\"",
+          "Content-Length": "1452",
+          "Expires": "Fri, 16 Dec 2022 11:23:59 GMT"
+        },
+        "mimeType": "image/jpeg",
+        "connectionReused": false,
+        "connectionId": 177,
+        "remoteIPAddress": "[2a04:fa87:fffe::c000:4902]",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 512,
+        "timing": {
+          "requestTime": 1320918.672848,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": 0.168,
+          "dnsEnd": 23.208,
+          "connectStart": 23.208,
+          "connectEnd": 47.943,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 47.98,
+          "sendEnd": 48.077,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 202.385
+        },
+        "responseTime": 1671189539861.332,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.38",
+      "timestamp": 1320918.879455,
+      "dataLength": 1452,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.38",
+      "timestamp": 1320918.879173,
+      "encodedDataLength": 1964,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "name": "firstImagePaint",
+      "timestamp": 1320918.890919
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.915403,
+      "dataLength": 1412,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.915756,
+      "dataLength": 1412,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.919205,
+      "dataLength": 1412,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.9195,
+      "dataLength": 1412,
+      "encodedDataLength": 1412
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.926512,
+      "dataLength": 15,
+      "encodedDataLength": 15
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.46",
+      "timestamp": 1320918.926498,
+      "encodedDataLength": 25431,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.loadEventFired",
+    "params": {
+      "timestamp": 1320918.928924
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "name": "load",
+      "timestamp": 1320918.928924
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.57",
+      "blockedCookies": [],
+      "headers": {
+        "Access-Control-Allow-Credentials": "true",
+        "Access-Control-Allow-Origin": "http://blankecomsite.wpenginedev.com",
+        "Cache-Control": "no-cache, must-revalidate, max-age=0",
+        "Connection": "keep-alive",
+        "Content-Length": "210",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+        "Expires": "Wed, 11 Jan 1984 05:00:00 GMT",
+        "Keep-Alive": "timeout=20",
+        "Server": "nginx",
+        "X-Content-Type-Options": "nosniff",
+        "X-Powered-By": "WP Engine",
+        "X-Robots-Tag": "noindex"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:18:59 GMT\r\nContent-Type: application/json; charset=UTF-8\r\nContent-Length: 210\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nAccess-Control-Allow-Origin: http://blankecomsite.wpenginedev.com\r\nAccess-Control-Allow-Credentials: true\r\nX-Content-Type-Options: nosniff\r\nExpires: Wed, 11 Jan 1984 05:00:00 GMT\r\nCache-Control: no-cache, must-revalidate, max-age=0\r\nX-Robots-Tag: noindex\r\nX-Powered-By: WP Engine\r\n\r\n"
+    }
+  },
+  {
+    "method": "Page.frameStoppedLoading",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.57",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320918.935178,
+      "type": "XHR",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/?wc-ajax=get_refreshed_fragments",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:18:59 GMT",
+          "X-Content-Type-Options": "nosniff",
+          "Server": "nginx",
+          "X-Powered-By": "WP Engine",
+          "Content-Type": "application/json; charset=UTF-8",
+          "Access-Control-Allow-Origin": "http://blankecomsite.wpenginedev.com",
+          "Cache-Control": "no-cache, must-revalidate, max-age=0",
+          "Access-Control-Allow-Credentials": "true",
+          "Connection": "keep-alive",
+          "X-Robots-Tag": "noindex",
+          "Keep-Alive": "timeout=20",
+          "Content-Length": "210",
+          "Expires": "Wed, 11 Jan 1984 05:00:00 GMT"
+        },
+        "mimeType": "application/json",
+        "connectionReused": true,
+        "connectionId": 75,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 468,
+        "timing": {
+          "requestTime": 1320918.766727,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.096,
+          "sendEnd": 0.187,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 164.797
+        },
+        "responseTime": 1671189539917.659,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.57",
+      "timestamp": 1320918.935228,
+      "dataLength": 210,
+      "encodedDataLength": 0
+    }
+  },
+  {
+    "method": "Network.dataReceived",
+    "params": {
+      "requestId": "38003.57",
+      "timestamp": 1320918.936606,
+      "dataLength": 0,
+      "encodedDataLength": 210
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.57",
+      "timestamp": 1320918.931792,
+      "encodedDataLength": 678,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSent",
+    "params": {
+      "requestId": "38003.58",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "documentURL": "http://blankecomsite.wpenginedev.com/",
+      "request": {
+        "url": "http://blankecomsite.wpenginedev.com/favicon.ico",
+        "method": "GET",
+        "headers": {
+          "Referer": "http://blankecomsite.wpenginedev.com/",
+          "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+          "X-WPE-No-Cache": "no-cache"
+        },
+        "mixedContentType": "none",
+        "initialPriority": "High",
+        "referrerPolicy": "strict-origin-when-cross-origin",
+        "isSameSite": true
+      },
+      "timestamp": 1320918.936845,
+      "wallTime": 1671189539.923066,
+      "initiator": {
+        "type": "other"
+      },
+      "redirectHasExtraInfo": false,
+      "type": "Other",
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "hasUserGesture": false
+    }
+  },
+  {
+    "method": "Network.requestWillBeSentExtraInfo",
+    "params": {
+      "requestId": "38003.58",
+      "associatedCookies": [],
+      "headers": {
+        "Accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+        "Accept-Encoding": "gzip, deflate",
+        "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+        "Connection": "keep-alive",
+        "Host": "blankecomsite.wpenginedev.com",
+        "Referer": "http://blankecomsite.wpenginedev.com/",
+        "User-Agent": "Mozilla/5.0 (Linux; Android 7.0; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4695.0 Mobile Safari/537.36 Chrome-Lighthouse",
+        "X-WPE-No-Cache": "no-cache"
+      },
+      "connectTiming": {
+        "requestTime": 1320918.937101
+      },
+      "clientSecurityState": {
+        "initiatorIsSecureContext": false,
+        "initiatorIPAddressSpace": "Public",
+        "privateNetworkRequestPolicy": "BlockFromInsecureToMorePrivate"
+      }
+    }
+  },
+  {
+    "method": "Network.responseReceivedExtraInfo",
+    "params": {
+      "requestId": "38003.58",
+      "blockedCookies": [],
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Access-Control-Allow-Origin": "*",
+        "Cache-Control": "public, max-age=31536000",
+        "Connection": "keep-alive",
+        "Content-Length": "0",
+        "Content-Type": "image/x-icon",
+        "Date": "Fri, 16 Dec 2022 11:19:00 GMT",
+        "ETag": "\"63298117-0\"",
+        "Keep-Alive": "timeout=20",
+        "Last-Modified": "Tue, 20 Sep 2022 09:00:07 GMT",
+        "Server": "nginx",
+        "Vary": "Accept-Encoding"
+      },
+      "resourceIPAddressSpace": "Public",
+      "statusCode": 200,
+      "headersText": "HTTP/1.1 200 OK\r\nServer: nginx\r\nDate: Fri, 16 Dec 2022 11:19:00 GMT\r\nContent-Type: image/x-icon\r\nContent-Length: 0\r\nLast-Modified: Tue, 20 Sep 2022 09:00:07 GMT\r\nConnection: keep-alive\r\nKeep-Alive: timeout=20\r\nETag: \"63298117-0\"\r\nCache-Control: public, max-age=31536000\r\nVary: Accept-Encoding\r\nAccess-Control-Allow-Origin: *\r\nAccept-Ranges: bytes\r\n\r\n"
+    }
+  },
+  {
+    "method": "Network.responseReceived",
+    "params": {
+      "requestId": "38003.58",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "timestamp": 1320919.056007,
+      "type": "Other",
+      "response": {
+        "url": "http://blankecomsite.wpenginedev.com/favicon.ico",
+        "status": 200,
+        "statusText": "OK",
+        "headers": {
+          "Date": "Fri, 16 Dec 2022 11:19:00 GMT",
+          "Last-Modified": "Tue, 20 Sep 2022 09:00:07 GMT",
+          "Server": "nginx",
+          "ETag": "\"63298117-0\"",
+          "Vary": "Accept-Encoding",
+          "Content-Type": "image/x-icon",
+          "Access-Control-Allow-Origin": "*",
+          "Cache-Control": "public, max-age=31536000",
+          "Connection": "keep-alive",
+          "Accept-Ranges": "bytes",
+          "Keep-Alive": "timeout=20",
+          "Content-Length": "0"
+        },
+        "mimeType": "image/x-icon",
+        "connectionReused": true,
+        "connectionId": 75,
+        "remoteIPAddress": "34.134.153.200",
+        "remotePort": 80,
+        "fromDiskCache": false,
+        "fromServiceWorker": false,
+        "fromPrefetchCache": false,
+        "encodedDataLength": 350,
+        "timing": {
+          "requestTime": 1320918.937101,
+          "proxyStart": -1,
+          "proxyEnd": -1,
+          "dnsStart": -1,
+          "dnsEnd": -1,
+          "connectStart": -1,
+          "connectEnd": -1,
+          "sslStart": -1,
+          "sslEnd": -1,
+          "workerStart": -1,
+          "workerReady": -1,
+          "workerFetchStart": -1,
+          "workerRespondWithSettled": -1,
+          "sendStart": 0.205,
+          "sendEnd": 0.326,
+          "pushStart": 0,
+          "pushEnd": 0,
+          "receiveHeadersEnd": 115.823
+        },
+        "responseTime": 1671189540039.003,
+        "protocol": "http/1.1",
+        "alternateProtocolUsage": "unspecifiedReason",
+        "securityState": "insecure"
+      },
+      "hasExtraInfo": true,
+      "frameId": "AADD279AB61E338A4E7F58ED40854625"
+    }
+  },
+  {
+    "method": "Network.loadingFinished",
+    "params": {
+      "requestId": "38003.58",
+      "timestamp": 1320919.053224,
+      "encodedDataLength": 350,
+      "shouldReportCorbBlocking": false
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "name": "networkAlmostIdle",
+      "timestamp": 1320918.879787
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "name": "firstMeaningfulPaint",
+      "timestamp": 1320918.67297
+    }
+  },
+  {
+    "method": "Page.lifecycleEvent",
+    "params": {
+      "frameId": "AADD279AB61E338A4E7F58ED40854625",
+      "loaderId": "6DB5A17F48BEEAC7BD4657A50C89EF96",
+      "name": "networkIdle",
+      "timestamp": 1320919.056513
+    }
+  }
+]
