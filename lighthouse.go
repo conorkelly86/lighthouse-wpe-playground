@@ -14,7 +14,8 @@ func main() {
 
 		fmt.Println(*input, " is the input")
 		url := *input
-        cmd := exec.Command("lighthouse", url, outputFlag)
+		// headers := `--extra-headers "{\"X-WPE-No-Cache\":\"no-cache\"}"`
+        cmd := exec.Command("lighthouse", url,  outputFlag)
         output, err := cmd.CombinedOutput()
         if err != nil {
                 fmt.Printf("Error running Lighthouse: %s\n", err)
@@ -28,6 +29,6 @@ func main() {
 		_, err = fmt.Fprintf(file, string(output))
 	if err != nil {
 		panic(err)
-	}
+	}	
     fmt.Printf("Lighthouse output:\n%s\n", output)
 }
